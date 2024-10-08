@@ -3,7 +3,7 @@
 
 namespace SecondQuestion
 {
-    internal class Person
+    struct Person
     {
         public int Age { get; private set; }
 
@@ -13,7 +13,7 @@ namespace SecondQuestion
             {
                 throw new AgeException("A person's age cannot be negative");
             }
-            
+
             Age = age;
         }
 

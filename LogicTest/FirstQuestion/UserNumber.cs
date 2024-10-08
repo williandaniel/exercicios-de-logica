@@ -3,7 +3,7 @@
 
 namespace FirstQuestion
 {
-    internal class UserNumber
+    struct UserNumber
     {
         public int InputNumber { get; private set; }
 

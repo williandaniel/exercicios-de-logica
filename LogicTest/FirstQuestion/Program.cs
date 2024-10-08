@@ -8,7 +8,7 @@ namespace FirstQuestion
         {
             // Leia um número até que o usuário digite 10;
             int number = 0;
-
+            UserNumber us;
 
             while (number != 10)
             {     
@@ -16,7 +16,7 @@ namespace FirstQuestion
                 {
                     Console.Write("Enter a positive integer: ");
                     number = int.Parse(Console.ReadLine());
-                    UserNumber us = new UserNumber(number);
+                    us = new UserNumber(number);
                 }
                 catch (IntException e)
                 {
